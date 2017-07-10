@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * Created by Alexander on 08.07.2017.
  */
 @Controller
-public class shopController {
+public class ShopController {
     @RequestMapping("/shop")
     public String shop(){
         return "shop";
